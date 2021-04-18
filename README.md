@@ -19,11 +19,11 @@ This program also differs from the continuos-time simulator being developed by A
 
   Folders:
   
-    ++ **tests** - scripts and `Makefile` to run tests.
+    + **tests** - scripts and `Makefile` to run tests.
     
-    ++ **tests/in** - some test networks and parameters.
+    + **tests/in** - some test networks and parameters.
     
-    ++ **tests/out** - outputs of the test runs.
+    + **tests/out** - outputs of the test runs.
     
 ## Installation:
 
@@ -38,4 +38,4 @@ Execute `nmsim_elem_net_simulate --info` to get the full manpage of the program,
 Basically the program reads a detailed network description from a ".txt" file, and simulates it over a specified time interval.  The external inputs and trace information are specified on the command line.  See the file `tests/Makefile` for examples.
 
 
-Last edited on 2021-04-17 23:37:17 by jstolfi
+Last edited on 2021-04-17 23:41:51 by jstolfi
